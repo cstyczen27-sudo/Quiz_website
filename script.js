@@ -6,4 +6,13 @@ let awesome = document.getElementById("type_of_awesome");
 console.log(title);
 console.log(awesome);
 
-awesome.textContent = "this is the updated text awesome it is so cool that it updated"
+let buttons = document.querySelectorAll("#type_of_awesome");
+console.log(buttons);
+
+buttons.forEach(function(button){
+    button.addEventListener("click", function(){
+
+        let output = document.getElementById("output_message"); 
+        output.textContent = "wow that is awesome";
+})
+})
