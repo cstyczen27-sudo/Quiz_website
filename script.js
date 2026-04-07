@@ -103,21 +103,21 @@ function checkTotal() {
 
         let output = document.getElementById("output-message");
 
-        if (total === 5)  { output.textContent = "Your Stand is: Stone Free"; }
-        else if (total === 6)  { output.textContent = "Your Stand is: Star Platinum"; }
-        else if (total === 7)  { output.textContent = "Your Stand is: Tusk"; }
-        else if (total === 8)  { output.textContent = "Your Stand is: Killer Queen"; }
-        else if (total === 9)  { output.textContent = "Your Stand is: Soft and Wet"; }
-        else if (total === 10) { output.textContent = "Your Stand is: Sticky Fingers"; }
-        else if (total === 11) { output.textContent = "Your Stand is: The Wrold"; }
-        else if (total === 12) { output.textContent = "Your Stand is: Eclipse 8"; }
-        else if (total === 13) { output.textContent = "Your Stand is: Echos"; }
-        else if (total === 14) { output.textContent = "Your Stand is: Love Deluxe"; }
-        else if (total === 15) { output.textContent = "Your Stand is: Dirty Deeds Done Dirt Cheap"; }
-        else if (total === 16) { output.textContent = "Your Stand is: Golden Experience"; }
-        else if (total === 17) { output.textContent = "Your Stand is: C-Moon"; }
-        else if (total === 18) { output.textContent = "Your Stand is: Made in Heaven"; }
-        else if (total === 19) { output.textContent = "Your Stand is: Moody Blues"; }
-        else if (total === 20) { output.textContent = "Your Stand is: Crazy Diamond"; }
+        if (total === 5)  { output.innerHTML = "Your Stand is: Stone Free<br> <img src='Stand_Images/Stone_Free.jpg' alt='Stone_Free'>"; }
+        else if (total === 6)  { output.innerHTML = "Your Stand is: Star Platinum <br> <img src='Stand_Images/STAR_PLATINUM.webp' alt='STAR_PLATINUM'/>"; }
+        else if (total === 7)  { output.innerHTML= "Your Stand is: Tusk<br> <img src='Stand_Images/Tusk.webp' alt='Tusk'/>"; }
+        else if (total === 8)  { output.innerHTML = "Your Stand is: Killer Queen<br> <img src='Stand_Images/Killer_Queen.png' alt='Killer_Queen'/>"; }
+        else if (total === 9)  { output.innerHTML = "Your Stand is: Soft and Wet<br> <img src='Stand_Images/Soft_and_Wet.webp' alt='Soft_and_Wet'/>"; }
+        else if (total === 10) { output.innerHTML = "Your Stand is: Sticky Fingers<br> <img src='Stand_Images/StickyFingers.webp' alt='StickyFingers'/>"; }
+        else if (total === 11) { output.innerHTML = "Your Stand is: The World<br> <img src='Stand_Images/Za_WORLDO.webp' alt='The_World'/>"; }
+        else if (total === 12) { output.innerHTML = "Your Stand is: Eclipse 8<br> <img src='Stand_Images/Eclipse_Eight.png' alt='Eclipse_Eight'/>"; }
+        else if (total === 13) { output.innerHTML = "Your Stand is: Echos<br> <img src='Stand_Images/Echos_Act_Three.webp' alt='Echos'/>"; }
+        else if (total === 14) { output.innerHTML = "Your Stand is: Love Deluxe<br> <img src='Stand_Images/Love_Deluxe.webp' alt='Love Deluxe'/>"; }
+        else if (total === 15) { output.innerHTML = "Your Stand is: Dirty Deeds Done Dirt Cheap<br> <img src='D4C.jpg' alt='Dirty Deeds Done Dirt Cheap'/>"; }
+        else if (total === 16) { output.innerHTML= "Your Stand is: Gold Experience<br> <img src='Stand_Images/Gold_Experience.png' alt='Gold_Experience'/>"; }
+        else if (total === 17) { output.innerHTML= "Your Stand is: C-Moon<br> <img src='Stand_Images/C-Moon.png' alt='C-Moon'/>"; }
+        else if (total === 18) { output.innerHTML= "Your Stand is: Made in Heaven<br> <img src='Stand_Images/Made_In_Heaven.jpg' alt='Made_In_Heaven'/>"; }
+        else if (total === 19) { output.innerHTML = "Your Stand is: Moody Blues<br> <img src='Stand_Images/Moody_Blues.png' alt='Moody_Blues'/>"; }
+        else if (total === 20) { output.innerHTML = "Your Stand is: Crazy Diamond<br> <img src='Stand_Images/Crazy_Diamond.webp' alt='Crazy_Diamond'/>";}
     }
 }
